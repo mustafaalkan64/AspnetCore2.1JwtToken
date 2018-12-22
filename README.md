@@ -17,3 +17,31 @@ in your project. You can set any string or alphanumeric characters to Secret key
     "Secret": "Amfewlv24356340dsdlw3423kdadak435321kjiswqjx125439ad23kdfjsfsf4"
   }
 ```
+<br/>
+<br/>
+
+Firstly you should post your authenticate method with user parameters in body.
+<br/>
+**İmportant**
+<br/>
+You must select **raw** and **JSON** options while sending post method in body if you use Postman.
+<br/>
+Your Json should be like below:
+<br/>
+```
+{ 
+ "Username":"mustafa.alkan",
+ "Password":"alkan123"
+}
+```
+After you get token from result, you will add to your method's header like below:
+<br/>
+
+**Headers**
+<br/>
+
+| Key           | Value              |
+| ------------- |:------------------:|
+| Content-Type  | application/json   |
+| Authorization | Bearer {YourToken} |
+

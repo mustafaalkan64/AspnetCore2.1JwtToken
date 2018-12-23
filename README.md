@@ -34,7 +34,7 @@ Your Json should be like below:
  "Password":"alkan123"
 }
 ```
-After you get token from result, you will add to your method's header like below:
+After you get token from result, you will add to your method's header like below which you need authorize:
 <br/>
 
 **Headers**
